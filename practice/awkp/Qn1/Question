@@ -1,0 +1,47 @@
+awk Exercise 3
+
+Save the following data in a file named teamlist.txt:
+
+Name,Team,First Test, Second Test, Third Test
+Tom,Red,5,17,22
+Joe,Green,3,14,22
+Maria,Blue,6,18,21
+Fred,Blue,2,15,23
+Carlos,Red,-1,15,24
+Phuong,Green,7,19,21
+Enrique,Green,3,16,20
+Nancy,Red,9,12,24
+
+You may also copy this file to your home directory on the server with this command:
+
+cp ~linux199/cit052/teamlist.txt ~
+
+Write an awk script that will compute the average score for every person in the list, the average score for each test, and the average score for each team. If a score is negative, that means the person missed the test, and the score must not become part of the average.
+
+Print the output to look like the following. In the list by name, the names must be left-justified in a field of size 10 (hint: %-10s in printf), and the averages must be seven characters wide with two digits to the right of the decimal point (%7.2f).
+
+Name       Average
+----       -------
+Tom          14.67
+Joe          13.00
+Maria        15.00
+Fred         13.33
+Carlos       19.50
+Phuong       15.67
+Enrique      13.00
+Nancy        15.00
+------------------
+Average for Test 1 : 5
+Average for Test 2 : 15.75
+Average for Test 3 : 22.125
+-------------------
+Average for Red Team: 16
+Average for Green Team: 13.8889
+Average for Blue Team: 14.1667
+
+Notes
+
+    Don’t process the first record in the file.
+    Your script must use at least one array indexed by number, and at least one array indexed by string. The usage of the arrays must be relevant to the solution.
+    Your script must use at least one for loop.
+    Your script must not be tied to this specific data. If the numbers change, or if records are added or deleted, your script must still produce the correct results.

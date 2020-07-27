@@ -1,0 +1,51 @@
+# Setup vimdiff for presentation
+alias vimdiff='vimdiff +"windo set wrap"'
+
+# Ex 1
+sed -E 's/lead/gold/' < 1.txt > 1.out
+vimdiff 1*
+
+sed -E 's/lead/gold/g' < 1.txt > 1.out
+vimdiff 1*
+
+sed -E 's/\blead\b/gold/g' < 1.txt > 1.out
+vimdiff 1*
+
+# Ex 2
+sed -E 's/./*/g' < 2.txt > 2.out
+vimdiff 2*
+
+sed -E 's/[a-z]/*/g' < 2.txt > 2.out
+vimdiff 2*
+
+sed -E 's/\w/*/g' < 2.txt > 2.out
+vimdiff 2*
+
+sed -E 's/`\w*`/`*****`/g' < 2.txt > 2.out
+vimdiff 2*
+
+# Ex 2 (BONUS)
+sed -E ':a s/`([*]*)[^*](.*)`/`\1*\2`/g;t a' < 2.txt > 2.out
+
+# Ex 3
+sed -E 's!(John|Paul|George|Ringo)!<em>&</em>!g' < 3.txt > 3.out
+vimdiff 3*
+
+# Ex 4
+sed -E 's/(.+),(.+)/\2,\1/' < 4.txt > 4.out
+vimdiff 4*
+
+# Ex 5
+head -15 5.txt
+
+sed -nE '
+s!^(https://[^/]+)!\1!w 5.https
+s!^(http://[^/]+)!\1!w 5.http
+' < 5.txt
+vim -O 5.*
+
+# Ex 6
+sed -E 's/([a-z]+) \1/\1/g' < 6.txt > 6.out
+vimdiff 6.*
+
+

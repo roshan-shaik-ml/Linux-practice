@@ -1,0 +1,54 @@
++SED
+Sed can be used not only for files but also for stdin. Sed is pupularly known for manuplating files.
+
+Example1: echo "welcome sed!!!" | sed 's/sed/roshan/'
+
+Sed substitution:
+it can used to substitute words like shown below:
+
+sed 's/word1/word2/' inputfile
+if we want to change the word throughout the input flag; add g flag in the end.
+
+example : sed 's/word1/word2/g'
+
+if we want to change the nth occurence
+
+example : sed 's/word1/word2/n' inputfile
+
+if we want to change a specific word in a certain range
+
+example : sed '2,3s/word1/word2/' inputfile
+
+note: for the last line use $.
+
+for changing nth occurence to end of the file.
+
+example : sed 's/word1/word2/2g' inputfile
+
+Sed deletion:
+
+sed can be used for deleting line.
+example : sed 'nd' inputfile
+
+it can be used to delete a certain range of lines in file.
+example : sed 'x,yd' inputfile.
+
+you can delete the last line using $d
+example : sed '$d' inputfile
+
+To delete pattern matching line.
+example : sed '/pattern/d' inputfile
+
+To input empty lines : sed 'G:G' inputfile
+
+To delete blank line and insert blank line after everyline: sed '/^$/d;G' inputfile.
+
+To insert 5 spaces to the left of every line: sed 's/^/     /' inputfile.
+
+Printing lines : 
+
+Sed can also be used to print lines:
+
+To print a set of lines in range x to y :sed -n 'x,yp' inputfile.
+
+To view entire file except given range : sed 'x,yd' inputfile.

@@ -1,0 +1,79 @@
+BEGIN{
+ORS = " "
+}
+
+
+{	
+	
+	row_number++;
+	
+	if(row_number == 3)
+	{
+		{print "This is the third row :", "	"}
+		for(i=1; i <= 3; i++)
+		print $i
+	}
+	print "\n"
+}
+
+{	
+	print "\n"
+	row_num++;
+	
+	if(row_num == 4)
+	{
+		print "This is 4th row 3rd Column: ", " ", $3
+	}
+	print "\n"
+}
+
+{
+	row_no++;
+	if(row_no%2 != 0)
+	{
+		{print "This is", row_no, "odd number row", ":"}
+		for(j=1; j<4;j++ )
+			{
+				
+				print $j  
+			}
+		print "\n"
+	}
+}
+
+{
+	row_no++;
+	if(row_no%2 == 0)
+	{
+		{print "This is", row_no, "even number row", ":"}
+		for(j=1; j<4;j++ )
+			{
+				
+				print $j  
+			}
+		print "\n"
+	}
+}
+
+{
+
+	print "Prints only odd columns:		"
+ 	for(k=1; k < 4 ; k=k+2)
+ 	{
+ 		print $k
+ 	}
+ 	print "\n"
+}
+
+{
+
+	print "Prints only even columns:"
+ 	for(k=2; k < 4 ; k=k+2)
+ 	{
+ 		print $k
+ 	}
+ 	print "\n"
+}
+
+
+

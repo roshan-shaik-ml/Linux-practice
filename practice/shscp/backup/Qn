@@ -1,0 +1,3 @@
+Question
+Problem 3: write a shell script to take two inputs : a input file containing list of file paths and backup folder. The script should backup the files to folder.  a file path is incorrect, ignore it and warn the user with a message.
+The command execution should be as follows: backup.sh fileslist.txt /home/Roshan/backup

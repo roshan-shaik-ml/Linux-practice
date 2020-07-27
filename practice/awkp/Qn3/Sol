@@ -1,0 +1,12 @@
+{	
+	row_number=0;
+	row_number++;
+	
+	for(int i=1; i <= NR; i++}
+	{
+		if(row_number == 3)
+		print $1, $2, $3;
+		continue;
+	}
+}
+

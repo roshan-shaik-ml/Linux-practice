@@ -1,0 +1,5 @@
+6. Use the input fileAC091491.tbl which is a long DNA sequence. First find the lengthof the sequence. Next print the percentage of each base, namely Adenine, Cytosine,Thiamine or Guanine (a, c, t, g) in the sequence. To make the ouput pretty, print theletter abbreviation of the base and the number of occurencesas a percentage. Hint:you will need to use the “fold -1” command in your pipleline. You can do this secondstep all in one command line and your output should look like this:a 32.3073 %c 20.0802 %g 18.9257 %t 28.6868 %This is adapted from http://genome.crg.es/courses/genefinding/P6/index.htmlby Roderic Guig`o
+
+
+
+Answer: fold -1 AC091491.tbl | sort | uniq -ic | grep 'a\| c\|g\|t' | awk '{print $1}'

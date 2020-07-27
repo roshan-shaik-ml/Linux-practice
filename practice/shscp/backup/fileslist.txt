@@ -1,0 +1,5 @@
+~/practice/shscp/cntlines/file1
+~/practice/shscp/cntlines/file2
+~/practice/shscp/cntlines/file3
+~/practice/shscp/cntlines/file4
+~/practice/shscp/cntlines/file5

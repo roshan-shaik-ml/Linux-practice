@@ -1,0 +1,93 @@
+BEGIN{
+	FS=","; 
+	print " Name", "	", "Average", "\n", "-----------------------------", "\n"
+}
+
+{
+	sum = 0;
+	
+	for (i = 3; i <= 5; i++)
+	{	if ($i != -1)
+		{
+		sum += $i;
+		attended++;
+		}
+	}
+	
+		sum /= attended;
+		print $1,"	", sum
+
+		student_count++;
+		sum1+=$3
+		sum2+=$4
+		sum3+=$5
+		
+
+}
+
+/Red/ {
+	sum = 0;
+	attended = 0;
+	team_red++;
+	
+	
+	for (i = 3; i <= 5; i++)
+	{	if ($i != -1)
+		{
+		sum += $i;
+		attended++;
+		}
+	}
+	
+		sum = sum/attended;
+		x1+= sum;
+		
+		
+}
+
+/Blue/ {
+	sum = 0;
+	attended = 0;
+	team_blue++;
+	
+	
+	for (i = 3; i <= 5; i++)
+	{	if ($i != -1)
+		{
+		sum += $i;
+		attended++;
+		}
+	}
+	
+		sum = sum/attended;
+		x2+= sum;
+		
+		
+}
+
+/Green/ {
+	sum = 0;
+	attended = 0;
+	team_green++;
+	
+	
+	for (i = 3; i <= 5; i++)
+	{	if ($i != -1)
+		{
+		sum += $i;
+		attended++;
+		}
+	}
+	
+		sum = sum/attended;
+		x3+= sum;
+		
+		
+}
+END{
+
+	print "------------------------------", "\n", "Average for Test 1 :" , avg1 = sum1/student_count, "\n", 
+	"Average for Test 2 :" , avg2 = sum2/student_count, "\n",
+	"Average for Test 3 :" , avg3 = sum3/student_count, "\n", "-----------------------------", "\n", 
+	"Average for Red Team: ", avg_red = x1/team_red, "\n", "Average for Blue Team: ", avg_blue = x2/team_blue,
+	"\n", "Average for Blue Team: ", avg_green = x3/team_green }  

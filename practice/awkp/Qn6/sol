@@ -1,0 +1,16 @@
+BEGIN{num=0}
+
+NR>1{
+
+if($2 == 20)
+print $8
+}
+
+NR>1{
+if(root == $1)
+num = num + 1;
+
+
+}
+
+END{print num}

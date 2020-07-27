@@ -1,0 +1,47 @@
+AWK practical exercise
+
+Analysis of ps command :
+
+The "ps -aefww" output looks like below. Using awk :
+
+1/ Print only the process name (last column) for PID : 20
+2/ Print the PID for your bash shell program
+3/ Count the number of process running with UID: root
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:41 ?        00:00:02 /sbin/init splash
+root           2       0  0 10:41 ?        00:00:00 [kthreadd]
+root           3       2  0 10:41 ?        00:00:00 [rcu_gp]
+root           4       2  0 10:41 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 10:41 ?        00:00:00 [kworker/0:0-events]
+root           6       2  0 10:41 ?        00:00:00 [kworker/0:0H-kblockd]
+root           7       2  0 10:41 ?        00:00:00 [kworker/0:1-events]
+root           8       2  0 10:41 ?        00:00:01 [kworker/u16:0-events_unbound]
+root           9       2  0 10:41 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 10:41 ?        00:00:00 [ksoftirqd/0]
+root          11       2  0 10:41 ?        00:00:00 [rcu_sched]
+root          12       2  0 10:41 ?        00:00:00 [migration/0]
+root          13       2  0 10:41 ?        00:00:00 [idle_inject/0]
+root          14       2  0 10:41 ?        00:00:00 [cpuhp/0]
+root          15       2  0 10:41 ?        00:00:00 [cpuhp/1]
+root          16       2  0 10:41 ?        00:00:00 [idle_inject/1]
+root          17       2  0 10:41 ?        00:00:00 [migration/1]
+root          18       2  0 10:41 ?        00:00:00 [ksoftirqd/1]
+root          19       2  0 10:41 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root          20       2  0 10:41 ?        00:00:00 [kworker/1:0H-kblockd]
+root          21       2  0 10:41 ?        00:00:00 [cpuhp/2]
+root          22       2  0 10:41 ?        00:00:00 [idle_inject/2]
+root          23       2  0 10:41 ?        00:00:00 [migration/2]
+root          24       2  0 10:41 ?        00:00:00 [ksoftirqd/2]
+root          25       2  0 10:41 ?        00:00:00 [kworker/2:0-events]
+root          26       2  0 10:41 ?        00:00:00 [kworker/2:0H-kblockd]
+root          27       2  0 10:41 ?        00:00:00 [cpuhp/3]
+root          28       2  0 10:41 ?        00:00:00 [idle_inject/3]
+root          29       2  0 10:41 ?        00:00:00 [migration/3]
+root          30       2  0 10:41 ?        00:00:00 [ksoftirqd/3]
+root          32       2  0 10:41 ?        00:00:00 [kworker/3:0H-kblockd]
+root          33       2  0 10:41 ?        00:00:00 [cpuhp/4]
+root          34       2  0 10:41 ?        00:00:00 [idle_inject/4]
+root          35       2  0 10:41 ?        00:00:00 [migration/4]
+root          36       2  0 10:41 ?        00:00:00 [ksoftirqd/4]
+

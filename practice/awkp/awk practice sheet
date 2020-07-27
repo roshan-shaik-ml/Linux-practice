@@ -1,0 +1,39 @@
+Linux HandsOn Assignment 2 (Awk Fundamentals)
+
+Problem 2 
+
+Given a input file
+
+row1_col1, row1_col2, row1_col3
+row2_col1, row2_col2, row2_col3
+row3_col1, row3_col2, row3_col3
+row4_col1, row4_col2, row4_col3
+
+Write awk commands to 
+
+Print only 3 rd row
+Print only 4th row 3rd col
+Print only odd rows
+Print only even rows
+For each row, print only odd cols
+For each row, print only even cols
+
+
+Problem 2
+
+Given a input file of items a customer purchased in a shop  :
+
+# Item Price
+Laptop, 1000
+SSD, 100
+Mouse, 10
+Keyboard, 11
+Desk, 2000
+
+Write awk commands to 
+
+Print all rows except first line (i.e header)
+Total of all prices
+Highest price item
+Cheapest price item
+

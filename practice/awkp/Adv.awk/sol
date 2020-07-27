@@ -1,0 +1,23 @@
+BEGIN{
+
+FS= ",",
+getline;
+
+ 
+
+
+}
+
+
+{
+firstname = $1
+lastname = $2
+email = $3
+title = $4
+
+
+
+
+}
+
+

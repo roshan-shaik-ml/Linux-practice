@@ -1,0 +1,56 @@
+Awk Advanced Application
+
+#Source is from the following link : https://opensource.com/article/19/10/advanced-awk
+
+
+
+Mail merge
+
+Now that you have some of the basics, try delving deeper into awk with a more structured example: creating a mail merge.
+
+A mail merge uses two files, one (called in this example email_template.txt) containing a template for an email you want to send:
+
+__________________________________________________________________________________________
+From: Program committee <pc@event.org>
+To: {firstname} {lastname} <{email}>
+Subject: Your presentation proposal
+
+Dear {firstname},
+
+Thank you for your presentation proposal:
+  {title}
+
+We are pleased to inform you that your proposal has been successful! We
+will contact you shortly with further information about the event
+schedule.
+
+Thank you,
+The Program Committee
+___________________________________________________________________________________________
+
+
+And the other is a CSV file (called proposals.csv) with the people you want to send the email to:
+
+___________________________________________________________________________________
+firstname,lastname,email,title
+Harry,Potter,hpotter@hogwarts.edu,"Defeating your nemesis in 3 easy steps"
+Jack,Reacher,reacher@covert.mil,"Hand-to-hand combat for beginners"
+Mickey,Mouse,mmouse@disney.com,"Surviving public speaking with a squeaky voice"
+Santa,Claus,sclaus@northpole.org,"Efficient list-making"
+_____________________________________________________________________________________
+
+
+
+You want to read the CSV file, replace the relevant fields in the first file (skipping the first line), then write the result to a file called acceptanceN.txt, incrementing N for each line you parse.
+
+Write the awk program in a file called mail_merge.awk. Statements are separated by ; in awk scripts. The first task is to set the field separator variable and a couple of other variables the script needs. You also need to read and discard the first line in the CSV, or a file will be created starting with Dear firstname. To do this, use the special function getline and reset the record counter to 0 after reading it.
+
+BEGIN {
+  FS=",";
+  template="email_template.txt";
+  output="acceptance";
+  getline;
+  NR=0;
+}
+
+The main function is very straightforward: for each line processed, a variable is set for the various fields—firstname, lastname, email, and title. The template file is read line by line, and the function sub is used to substitute any occurrence of the special character sequences with the value of the relevant variable. Then the line, with any substitutions made, is output to the output file.

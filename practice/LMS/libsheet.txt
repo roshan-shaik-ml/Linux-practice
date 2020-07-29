@@ -1,0 +1,6 @@
+Refno.	Book-name	Author		Availabilty	Issue-date	Return-date	Student-id	Student-name
+1	Bash-scripting	Linus-Trovalds	no		21-03-2020			1111		Roshan-Shaik
+2	Human-Anatomy	AK-Jain		yes		nil		nil		nil		name	
+3	Quantum-Physics	Bala-Subramanyam	no 	30-03-2020			3333		Jasper-Joshi
+4	Chess-Tactics	Bobby-Fischer	no		03-04-2020			4444		Lochana-Bobo
+5	Java-Interview-Question		Bern-Bates 	yes					

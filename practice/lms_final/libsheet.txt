@@ -1,0 +1,7 @@
+Refno.	Book-Category	Book-name	Author		Availabilty	Issue-date	Return-date	Student-id	Student-name
+101	Programming	Bash-scripting	Linus-Trovalds	no		21-03-2020	04-04-2020	1111		Roshan-Shaik
+202	Biology		Human-Anatomy	AK-Jain		yes		03-03-2020	22-04-2020	2222		Sriram-Basu	
+303	Physics		Quantum-Physics	Bala-Subramanyam	no 	30-03-2020	NA		3333		Jasper-Joshi
+404	Sport		Chess-Tactics	Bobby-Fischer	no		03-04-2020	NA		4444		Lochana-Bobo
+505	Programming	Java-Interview-Question		Bern-Bates 	yes	NA	NA		NA		NA
+606	programming	Python-function	Zed-Shaw	no		10-04-2020	28-04-2020	6666		Hardik-Hulu

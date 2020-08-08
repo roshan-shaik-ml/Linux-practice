@@ -1,5 +1,6 @@
 #! /usr/bin/bash
 
+#It is a classic multiplayer (1-2) player Rock Paper Scissors game.
 # 0 is rock
 # 1 is paper
 # 2 is scissors
@@ -92,4 +93,6 @@ then
 		echo "****************************************************************"
 
 	done
+else
+	echo "Invallid Input"
 fi

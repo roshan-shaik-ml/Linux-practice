@@ -10,7 +10,6 @@ source compute.sh
 
 #......................................................................#
 
-# df & awk command for getting input
 files_paths=`df -kh | awk 'NR>1{print $1}'`
 size_of_dirs=`df -kh | awk 'NR>1{print $2}'`
 files_used_mem=`df -kh | awk 'NR>1{print $3}'`
@@ -20,7 +19,6 @@ used_percent=`df -kh | awk 'NR>1{print $5}'| sed 's/%//g'`
 bucketize
 backup
 
-#loop for assigning col to array for printing them in table
 for file_path in $files_paths
 do
     sys_file+=($file_path)

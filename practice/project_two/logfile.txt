@@ -1,0 +1,536 @@
+Aug 26 10:00:14 bucketizing
+Aug 26 10:00:14 sorting color
+Aug 26 10:00:15 cowsay Uninstalled sucessfully.
+Aug 26 10:00:15 checking blacklisting packages done
+Aug 26 10:00:15 bucketizing user stats
+Aug 26 10:00:15 checking packages complete
+Aug 26 10:00:15 backing up the user system done
+Aug 26 10:00:15 process complete
+Aug 26 10:00:46 bucketizing
+Aug 26 10:00:46 sorting color
+Aug 26 10:00:47 cowsay Uninstalled sucessfully.
+Aug 26 10:00:47 checking blacklisting packages done
+Aug 26 10:00:47 bucketizing user stats
+Aug 26 10:00:47 checking packages complete
+Aug 26 10:00:47 backing up the user system done
+Aug 26 10:00:47 process complete
+Aug 26 10:01:29 bucketizing
+Aug 26 10:01:29 sorting color
+Aug 26 10:01:30 cowsay Uninstalled sucessfully.
+Aug 26 10:01:30 checking blacklisting packages done
+Aug 26 10:01:30 bucketizing user stats
+Aug 26 10:01:30 checking packages complete
+Aug 26 10:01:30 backing up the user system done
+Aug 26 10:01:30 process complete
+Aug 26 10:03:53 bucketizing
+Aug 26 10:03:53 sorting color
+Aug 26 10:03:54 cowsay Uninstalled sucessfully.
+Aug 26 10:03:54 checking blacklisting packages done
+Aug 26 10:03:54 bucketizing user stats
+Aug 26 10:03:54 checking packages complete
+Aug 26 10:03:54 backing up the user system done
+Aug 26 10:03:54 process complete
+Aug 27 22:55:01 bucketizing
+Aug 27 22:55:01 sorting color
+Aug 27 22:55:05 cowsay Uninstalled sucessfully.
+Aug 27 22:55:05 checking blacklisting packages done
+Aug 27 22:55:05 bucketizing user stats
+Aug 27 22:55:05 checking packages complete
+Aug 27 22:55:05 backing up the user system done
+Aug 27 22:55:05 process complete
+Aug 28 02:27:45 bucketizing
+Aug 28 02:27:45 sorting color
+Aug 28 02:27:49 cowsay Uninstalled sucessfully.
+Aug 28 02:27:49 checking blacklisting packages done
+Aug 28 02:27:49 bucketizing user stats
+Aug 28 02:27:49 checking packages complete
+Aug 28 02:27:49 backing up the user system done
+Aug 28 02:27:49 process complete
+Aug 28 02:29:29 bucketizing
+Aug 28 02:29:29 sorting color
+Aug 28 02:29:32 cowsay Uninstalled sucessfully.
+Aug 28 02:29:32 checking blacklisting packages done
+Aug 28 02:29:32 bucketizing user stats
+Aug 28 02:29:32 checking packages complete
+Aug 28 02:29:32 backing up the user system done
+Aug 28 02:29:32 process complete
+Aug 28 02:31:49 bucketizing
+Aug 28 02:31:49 sorting color
+Aug 28 02:31:53 cowsay Uninstalled sucessfully.
+Aug 28 02:31:53 checking blacklisting packages done
+Aug 28 02:31:53 bucketizing user stats
+Aug 28 02:31:53 checking packages complete
+Aug 28 02:31:53 backing up the user system done
+Aug 28 02:31:53 process complete
+Aug 28 02:34:00 bucketizing
+Aug 28 02:34:00 sorting color
+Aug 28 02:34:03 cowsay Uninstalled sucessfully.
+Aug 28 02:34:03 checking blacklisting packages done
+Aug 28 02:34:03 bucketizing user stats
+Aug 28 02:34:03 checking packages complete
+Aug 28 02:34:04 backing up the user system done
+Aug 28 02:34:04 process complete
+Aug 28 02:36:06 bucketizing
+Aug 28 02:36:06 sorting color
+Aug 28 02:36:09 cowsay Uninstalled sucessfully.
+Aug 28 02:36:09 checking blacklisting packages done
+Aug 28 02:36:09 bucketizing user stats
+Aug 28 02:36:09 checking packages complete
+Aug 28 02:36:09 backing up the user system done
+Aug 28 02:36:09 process complete
+Aug 28 02:37:59 bucketizing
+Aug 28 02:37:59 sorting color
+Aug 28 02:38:02 cowsay Uninstalled sucessfully.
+Aug 28 02:38:02 checking blacklisting packages done
+Aug 28 02:38:02 bucketizing user stats
+Aug 28 02:38:02 checking packages complete
+Aug 28 02:38:02 backing up the user system done
+Aug 28 02:38:02 process complete
+Aug 28 02:42:53 bucketizing
+Aug 28 02:42:53 sorting color
+Aug 28 02:42:56 cowsay Uninstalled sucessfully.
+Aug 28 02:42:56 checking blacklisting packages done
+Aug 28 02:42:56 bucketizing user stats
+Aug 28 02:42:56 checking packages complete
+Aug 28 02:42:56 backing up the user system done
+Aug 28 02:42:56 process complete
+Aug 28 02:45:31 bucketizing
+Aug 28 02:45:31 sorting color
+Aug 28 02:45:34 cowsay Uninstalled sucessfully.
+Aug 28 02:45:34 checking blacklisting packages done
+Aug 28 02:45:35 bucketizing user stats
+Aug 28 02:45:35 checking packages complete
+Aug 28 02:45:35 backing up the user system done
+Aug 28 02:45:35 process complete
+Aug 28 02:47:22 bucketizing
+Aug 28 02:47:22 sorting color
+Aug 28 02:47:26 cowsay Uninstalled sucessfully.
+Aug 28 02:47:26 checking blacklisting packages done
+Aug 28 02:47:26 bucketizing user stats
+Aug 28 02:47:26 checking packages complete
+Aug 28 02:47:26 backing up the user system done
+Aug 28 02:47:26 process complete
+Aug 28 03:07:09 bucketizing
+Aug 28 03:07:09 sorting color
+Aug 28 03:07:12 cowsay Uninstalled sucessfully.
+Aug 28 03:07:12 checking blacklisting packages done
+Aug 28 03:07:12 bucketizing user stats
+Aug 28 03:07:12 checking packages complete
+Aug 28 03:07:12 backing up the user system done
+Aug 28 03:07:12 process complete
+Aug 28 03:09:45 bucketizing
+Aug 28 03:09:45 sorting color
+Aug 28 03:09:48 cowsay Uninstalled sucessfully.
+Aug 28 03:09:48 checking blacklisting packages done
+Aug 28 03:09:48 bucketizing user stats
+Aug 28 03:09:48 checking packages complete
+Aug 28 03:09:48 backing up the user system done
+Aug 28 03:09:48 process complete
+Aug 28 03:11:05 bucketizing
+Aug 28 03:11:05 sorting color
+Aug 28 03:11:08 cowsay Uninstalled sucessfully.
+Aug 28 03:11:08 checking blacklisting packages done
+Aug 28 03:11:08 bucketizing user stats
+Aug 28 03:11:08 checking packages complete
+Aug 28 03:11:08 backing up the user system done
+Aug 28 03:11:09 process complete
+Aug 28 03:14:17 bucketizing
+Aug 28 03:14:17 sorting color
+Aug 28 03:14:20 cowsay Uninstalled sucessfully.
+Aug 28 03:14:20 checking blacklisting packages done
+Aug 28 03:14:20 bucketizing user stats
+Aug 28 03:14:20 checking packages complete
+Aug 28 03:14:21 backing up the user system done
+Aug 28 03:14:21 process complete
+Aug 28 03:17:34 bucketizing
+Aug 28 03:17:34 sorting color
+Aug 28 03:17:37 cowsay Uninstalled sucessfully.
+Aug 28 03:17:37 checking blacklisting packages done
+Aug 28 03:17:37 bucketizing user stats
+Aug 28 03:17:37 checking packages complete
+Aug 28 03:17:37 backing up the user system done
+Aug 28 03:17:37 process complete
+Aug 28 03:21:30 bucketizing
+Aug 28 03:21:30 sorting color
+Aug 28 03:21:33 cowsay Uninstalled sucessfully.
+Aug 28 03:21:33 checking blacklisting packages done
+Aug 28 03:21:33 bucketizing user stats
+Aug 28 03:21:33 checking packages complete
+Aug 28 03:21:34 backing up the user system done
+Aug 28 03:21:34 process complete
+Aug 28 03:34:51 bucketizing
+Aug 28 03:34:51 sorting color
+Aug 28 03:34:54 cowsay Uninstalled sucessfully.
+Aug 28 03:34:54 checking blacklisting packages done
+Aug 28 03:34:54 bucketizing user stats
+Aug 28 03:34:54 checking packages complete
+Aug 28 03:38:39 bucketizing
+Aug 28 03:38:39 sorting color
+Aug 28 03:38:42 cowsay Uninstalled sucessfully.
+Aug 28 03:38:42 checking blacklisting packages done
+Aug 28 03:38:42 bucketizing user stats
+Aug 28 03:38:42 checking packages complete
+Aug 28 03:38:42 backing up the user system done
+Aug 28 03:38:42 process complete
+Aug 28 03:44:14 bucketizing
+Aug 28 03:44:14 sorting color
+Aug 28 03:44:17 cowsay Uninstalled sucessfully.
+Aug 28 03:44:17 checking blacklisting packages done
+Aug 28 03:44:17 bucketizing user stats
+Aug 28 03:44:18 checking packages complete
+Aug 28 03:44:18 backing up the user system done
+Aug 28 03:44:18 process complete
+Aug 28 03:49:35 bucketizing
+Aug 28 03:49:35 sorting color
+Aug 28 03:49:38 cowsay Uninstalled sucessfully.
+Aug 28 03:49:38 checking blacklisting packages done
+Aug 28 03:49:38 bucketizing user stats
+Aug 28 03:49:38 checking packages complete
+Aug 28 03:49:39 backing up the user system done
+Aug 28 03:49:39 process complete
+Aug 28 03:52:22 bucketizing
+Aug 28 03:52:22 sorting color
+Aug 28 03:52:25 cowsay Uninstalled sucessfully.
+Aug 28 03:52:25 checking blacklisting packages done
+Aug 28 03:52:25 bucketizing user stats
+Aug 28 03:52:25 checking packages complete
+Aug 28 03:52:25 backing up the user system done
+Aug 28 03:52:25 process complete
+Aug 28 03:54:18 bucketizing
+Aug 28 03:54:18 sorting color
+Aug 28 03:54:21 cowsay Uninstalled sucessfully.
+Aug 28 03:54:21 checking blacklisting packages done
+Aug 28 03:54:21 bucketizing user stats
+Aug 28 03:54:21 checking packages complete
+Aug 28 03:54:21 backing up the user system done
+Aug 28 03:54:21 process complete
+Aug 28 03:59:36 bucketizing
+Aug 28 03:59:36 sorting color
+Aug 28 03:59:39 cowsay Uninstalled sucessfully.
+Aug 28 03:59:39 checking blacklisting packages done
+Aug 28 03:59:39 bucketizing user stats
+Aug 28 03:59:39 checking packages complete
+Aug 28 03:59:39 backing up the user system done
+Aug 28 03:59:39 process complete
+Aug 28 23:00:54 bucketizing
+Aug 28 23:00:54 sorting color
+Aug 28 23:00:57 cowsay Uninstalled sucessfully.
+Aug 28 23:00:57 checking blacklisting packages done
+Aug 28 23:00:57 bucketizing user stats
+Aug 28 23:00:57 checking packages complete
+Aug 28 23:00:58 backing up the user system done
+Aug 28 23:00:58 process complete
+Aug 28 23:02:31 bucketizing
+Aug 28 23:02:31 sorting color
+Aug 28 23:02:34 cowsay Uninstalled sucessfully.
+Aug 28 23:02:34 checking blacklisting packages done
+Aug 28 23:02:34 bucketizing user stats
+Aug 28 23:02:34 checking packages complete
+Aug 28 23:02:34 backing up the user system done
+Aug 28 23:02:34 process complete
+Aug 29 10:25:05 bucketizing
+Aug 29 10:25:05 sorting color
+Aug 29 10:25:08 cowsay Uninstalled sucessfully.
+Aug 29 10:25:08 checking blacklisting packages done
+Aug 29 10:25:08 bucketizing user stats
+Aug 29 10:25:08 checking packages complete
+Aug 29 10:25:08 backing up the user system done
+Aug 29 10:25:08 process complete
+Aug 29 10:54:02 bucketizing
+Aug 29 10:54:02 sorting color
+Aug 29 10:54:05 cowsay Uninstalled sucessfully.
+Aug 29 10:54:05 checking blacklisting packages done
+Aug 29 10:54:05 bucketizing user stats
+Aug 29 10:54:05 checking packages complete
+Aug 29 10:54:05 backing up the user system done
+Aug 29 10:54:05 process complete
+Aug 29 11:02:16 bucketizing
+Aug 29 11:02:16 sorting color
+Aug 29 11:02:19 cowsay Uninstalled sucessfully.
+Aug 29 11:02:19 checking blacklisting packages done
+Aug 29 11:02:19 bucketizing user stats
+Aug 29 11:02:19 checking packages complete
+Aug 29 11:02:19 backing up the user system done
+Aug 29 11:02:19 process complete
+Aug 29 12:07:58 bucketizing
+Aug 29 12:07:58 sorting color
+Aug 29 12:08:00 cowsay Uninstalled sucessfully.
+Aug 29 12:08:00 checking blacklisting packages done
+Aug 29 12:08:00 bucketizing user stats
+Aug 29 12:08:00 checking packages complete
+Aug 29 12:08:01 backing up the user system done
+Aug 29 12:08:01 process complete
+Aug 29 12:08:17 bucketizing
+Aug 29 12:08:17 sorting color
+Aug 29 12:08:19 cowsay Uninstalled sucessfully.
+Aug 29 12:08:20 checking blacklisting packages done
+Aug 29 12:08:20 bucketizing user stats
+Aug 29 12:08:20 checking packages complete
+Aug 29 12:11:53 bucketizing
+Aug 29 12:11:53 sorting color
+Aug 29 12:11:56 cowsay Uninstalled sucessfully.
+Aug 29 12:11:56 checking blacklisting packages done
+Aug 29 12:11:56 bucketizing user stats
+Aug 29 12:11:56 checking packages complete
+Aug 29 12:11:56 backing up the user system done
+Aug 29 12:11:56 process complete
+Aug 29 14:11:58 bucketizing
+Aug 29 14:11:58 sorting color
+Aug 29 14:12:01 cowsay Uninstalled sucessfully.
+Aug 29 14:12:01 checking blacklisting packages done
+Aug 29 14:12:01 bucketizing user stats
+Aug 29 14:12:01 checking packages complete
+Aug 29 14:12:01 backing up the user system done
+Aug 29 14:12:01 process complete
+Aug 29 14:30:31 bucketizing
+Aug 29 14:30:31 sorting color
+Aug 29 14:30:34 cowsay Uninstalled sucessfully.
+Aug 29 14:30:34 checking blacklisting packages done
+Aug 29 14:30:34 bucketizing user stats
+Aug 29 14:30:34 checking packages complete
+Aug 29 14:30:34 backing up the user system done
+Aug 29 14:30:34 process complete
+Aug 29 14:36:14 bucketizing
+Aug 29 14:36:14 sorting color
+Aug 29 14:36:17 cowsay Uninstalled sucessfully.
+Aug 29 14:36:17 checking blacklisting packages done
+Aug 29 14:36:17 bucketizing user stats
+Aug 29 14:36:17 checking packages complete
+Aug 29 14:36:18 backing up the user system done
+Aug 29 14:36:18 process complete
+Aug 29 14:38:02 bucketizing
+Aug 29 14:38:02 sorting color
+Aug 29 14:38:05 cowsay Uninstalled sucessfully.
+Aug 29 14:38:05 checking blacklisting packages done
+Aug 29 14:38:05 bucketizing user stats
+Aug 29 14:38:05 checking packages complete
+Aug 29 14:38:05 backing up the user system done
+Aug 29 14:38:05 process complete
+Aug 29 15:40:31 bucketizing
+Aug 29 15:40:31 sorting color
+Aug 29 15:40:31 bucketizing user stats
+Aug 29 15:40:31 checking packages complete
+Aug 29 15:40:32 backing up the user system done
+Aug 29 15:40:32 process complete
+Aug 29 15:53:36 bucketizing
+Aug 29 15:53:36 sorting color
+Aug 29 15:53:36 bucketizing user stats
+Aug 29 15:53:36 checking packages complete
+Aug 29 15:53:36 backing up the user system done
+Aug 29 15:53:36 process complete
+Aug 29 20:08:57 bucketizing
+Aug 29 20:08:57 sorting color
+Aug 29 20:08:57 bucketizing user stats
+Aug 29 20:08:57 checking packages complete
+Aug 29 20:08:58 backing up the user system done
+Aug 29 20:08:58 process complete
+Aug 29 20:29:03 bucketizing
+Aug 29 20:29:03 sorting color
+Aug 29 20:29:03 bucketizing user stats
+Aug 29 20:29:03 checking packages complete
+Aug 29 20:29:04 backing up the user system done
+Aug 29 20:29:04 process complete
+Aug 29 20:43:45 bucketizing
+Aug 29 20:43:45 sorting color
+Aug 29 20:43:45 bucketizing user stats
+Aug 29 20:43:45 checking packages complete
+Aug 29 20:43:45 backing up the user system done
+Aug 29 20:43:45 process complete
+Aug 29 20:49:16 bucketizing
+Aug 29 20:49:16 sorting color
+Aug 29 20:49:16 bucketizing user stats
+Aug 29 20:49:16 checking packages complete
+Aug 29 20:49:16 backing up the user system done
+Aug 29 20:49:16 process complete
+Aug 29 20:52:52 bucketizing
+Aug 29 20:52:52 sorting color
+Aug 29 20:52:52 bucketizing user stats
+Aug 29 20:52:52 checking packages complete
+Aug 29 20:52:52 backing up the user system done
+Aug 29 20:52:52 process complete
+Aug 29 20:55:22 bucketizing
+Aug 29 20:55:22 sorting color
+Aug 29 20:55:22 bucketizing user stats
+Aug 29 20:55:22 checking packages complete
+Aug 29 20:55:22 backing up the user system done
+Aug 29 20:55:22 process complete
+Aug 29 20:56:01 bucketizing
+Aug 29 20:56:01 sorting color
+Aug 29 20:56:01 bucketizing user stats
+Aug 29 20:56:01 checking packages complete
+Aug 29 20:56:01 backing up the user system done
+Aug 29 20:56:01 process complete
+Aug 29 20:57:37 bucketizing
+Aug 29 20:57:37 sorting color
+Aug 29 20:57:37 bucketizing user stats
+Aug 29 20:57:37 checking packages complete
+Aug 29 20:57:37 backing up the user system done
+Aug 29 20:57:37 process complete
+Aug 29 20:58:20 bucketizing
+Aug 29 20:58:20 sorting color
+Aug 29 20:58:20 bucketizing user stats
+Aug 29 20:58:20 checking packages complete
+Aug 29 20:58:20 backing up the user system done
+Aug 29 20:58:20 process complete
+Aug 30 01:12:17 bucketizing
+Aug 30 01:12:17 sorting color
+Aug 30 01:12:17 bucketizing user stats
+Aug 30 01:12:17 checking packages complete
+Aug 30 01:12:17 backing up the user system done
+Aug 30 01:12:17 process complete
+Aug 30 01:15:55 bucketizing
+Aug 30 01:15:55 sorting color
+Aug 30 01:15:55 bucketizing user stats
+Aug 30 01:15:55 checking packages complete
+Aug 30 01:15:56 backing up the user system done
+Aug 30 01:15:56 process complete
+Aug 30 01:16:29 bucketizing
+Aug 30 01:16:29 sorting color
+Aug 30 01:16:29 bucketizing user stats
+Aug 30 01:16:29 checking packages complete
+Aug 30 01:16:29 backing up the user system done
+Aug 30 01:16:30 process complete
+Aug 30 01:19:46 bucketizing
+Aug 30 01:19:46 sorting color
+Aug 30 01:19:46 bucketizing user stats
+Aug 30 01:19:46 checking packages complete
+Aug 30 01:19:46 backing up the user system done
+Aug 30 01:19:46 process complete
+Aug 30 01:20:12 bucketizing
+Aug 30 01:20:12 sorting color
+Aug 30 01:20:12 bucketizing user stats
+Aug 30 01:20:12 checking packages complete
+Aug 30 01:20:12 backing up the user system done
+Aug 30 01:20:12 process complete
+bucktized
+Aug 30 02:06:08 bucketizing
+Aug 30 02:06:08 sorting color
+Aug 30 02:06:08 bucketizing user stats
+Aug 30 02:06:08 checking packages complete
+Aug 30 02:06:08 backing up the user system done
+Aug 30 02:06:08 process complete
+bucktized
+Aug 30 02:06:37 bucketizing
+Aug 30 02:06:37 sorting color
+Aug 30 02:06:37 bucketizing user stats
+Aug 30 02:06:37 checking packages complete
+Aug 30 02:06:37 backing up the user system done
+Aug 30 02:06:37 process complete
+bucktized
+bucktized
+Aug 30 02:21:09 bucketizing
+Aug 30 02:21:09 sorting color
+Aug 30 02:21:09 bucketizing user stats
+Aug 30 02:21:09 checking packages complete
+Aug 30 02:21:09 backing up the user system done
+Aug 30 02:21:09 process complete
+bucktized
+bucktized
+Aug 30 02:22:26 bucketizing
+Aug 30 02:22:26 sorting color
+Aug 30 02:22:26 bucketizing user stats
+Aug 30 02:22:26 checking packages complete
+Aug 30 02:22:26 backing up the user system done
+Aug 30 02:22:26 process complete
+bucktized
+bucktized
+Aug 30 02:22:54 bucketizing
+Aug 30 02:22:54 sorting color
+Aug 30 02:22:54 bucketizing user stats
+Aug 30 02:22:54 checking packages complete
+Aug 30 02:22:54 backing up the user system done
+Aug 30 02:22:54 process complete
+bucktized
+bucktized
+Aug 30 02:24:34 bucketizing
+bucktized
+bucktized
+Aug 30 02:26:09 bucketizing
+Aug 30 02:26:09 sorting color
+Aug 30 02:26:10 bucketizing user stats
+Aug 30 02:26:10 checking packages complete
+Aug 30 02:26:10 backing up the user system done
+Aug 30 02:26:10 process complete
+bucktized
+bucktized
+bucktized
+Aug 30 02:30:47 bucketizing
+Aug 30 02:30:47 sorting color
+Aug 30 02:30:47 bucketizing user stats
+Aug 30 02:30:47 checking packages complete
+Aug 30 02:30:48 backing up the user system done
+Aug 30 02:30:48 process complete
+bucktized
+bucktized
+Aug 30 02:32:26 bucketizing
+Aug 30 02:32:26 sorting color
+bucktized
+bucktized
+Aug 30 02:34:16 bucketizing
+Aug 30 02:34:16 sorting color
+bucktized
+bucktized
+Aug 30 02:35:33 bucketizing
+Aug 30 02:35:33 sorting color
+bucktized
+bucktized
+Aug 30 02:43:33 bucketizing
+Aug 30 02:43:33 sorting color
+bucktized
+bucktized
+bucktized
+Aug 30 02:48:23 bucketizing
+Aug 30 02:48:23 sorting color
+Aug 30 02:48:23 bucketizing user stats
+Aug 30 02:48:24 checking packages complete
+Aug 30 02:48:24 backing up the user system done
+Aug 30 02:48:24 process complete
+bucktized
+bucktized
+bucktized
+Aug 30 02:54:11 bucketizing
+Aug 30 02:54:11 sorting color
+Aug 30 02:54:11 bucketizing user stats
+Aug 30 02:54:11 checking packages complete
+Aug 30 02:54:11 backing up the user system done
+Aug 30 02:54:11 process complete
+bucktized
+bucktized
+Aug 30 02:55:18 bucketizing
+Aug 30 02:55:18 sorting color
+Aug 30 02:55:19 bucketizing user stats
+Aug 30 02:55:19 checking packages complete
+Aug 30 02:55:19 backing up the user system done
+Aug 30 02:55:19 process complete
+bucktized
+bucktized
+Aug 30 02:56:51 bucketizing
+Aug 30 02:56:51 sorting color
+Aug 30 02:56:51 bucketizing user stats
+Aug 30 02:56:51 checking packages complete
+Aug 30 02:56:51 backing up the user system done
+Aug 30 02:56:51 process complete
+bucktized
+bucktized
+Aug 30 03:00:56 bucketizing
+Aug 30 03:00:56 sorting color
+Aug 30 03:00:56 bucketizing user stats
+Aug 30 03:00:56 checking packages complete
+Aug 30 03:00:56 backing up the user system done
+Aug 30 03:00:56 process complete
+bucktized
+bucktized
+Aug 30 03:01:08 bucketizing
+Aug 30 03:01:08 sorting color
+Aug 30 03:01:08 bucketizing user stats
+Aug 30 03:01:08 checking packages complete
+Aug 30 03:01:09 backing up the user system done
+Aug 30 03:01:09 process complete
+bucktized
+bucktized
+Aug 30 03:01:41 bucketizing
+Aug 30 03:01:41 sorting color
+Aug 30 03:01:41 bucketizing user stats
+Aug 30 03:01:41 checking packages complete
+Aug 30 03:01:41 backing up the user system done
+Aug 30 03:01:41 process complete

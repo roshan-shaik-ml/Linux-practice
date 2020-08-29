@@ -1,403 +1,391 @@
 <html>
-<head>
-CSV to HTML
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-body {
-background-color: #FFF5EE;
-}
-</style>
+<head>CSV to HTML
+	<style>
+		table {
+		  font-family: arial, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+		
+		td, th {
+		  border: 1px solid #dddddd;
+		  text-align: left;
+		  padding: 8px;
+		}
+		
+		tr:nth-child(even) {
+		  background-color: #dddddd;
+		}
+		body {
+		background-color: #FFF5EE;
+		}
+	</style>
 </head>
 </body>
 <table>
-<th>FILE_PATH</th>
-<th>COLOR_BUCKET</th>
-<th>USED_PERCENTAGE</th>
-<th>AVAILABLE</th>
-<th>HISTOGRAM</th>
-<tr>
-<td>/dev/loop0</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop1</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop2</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop3</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop4</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop5</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop6</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop7</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/loop8</td>
-<td><p style=color:red>red</p></td>
-<td>100</td>
-<td>0</td>
-<td>
-<table width=100%>
-<col style=width:100%>
-<col style=width:0%>
-<tr>
-<td bgcolor=red>
-100
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/nvme0n1p1</td>
-<td><p style=color:yellow>yellow</p></td>
-<td>48</td>
-<td>77M</td>
-<td>
-<table width=100%>
-<col style=width:48%>
-<col style=width:52%>
-<tr>
-<td bgcolor=yellow>
-48
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>/dev/nvme0n1p7</td>
-<td><p style=color:green>green</p></td>
-<td>21</td>
-<td>74G</td>
-<td>
-<table width=100%>
-<col style=width:21%>
-<col style=width:79%>
-<tr>
-<td bgcolor=green>
-21
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>tmpfs</td>
-<td><p style=color:green>green</p></td>
-<td>0</td>
-<td>3.8G</td>
-<td>
-<table width=100%>
-<col style=width:0%>
-<col style=width:100%>
-<tr>
-<td bgcolor=green>
-0
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>tmpfs</td>
-<td><p style=color:green>green</p></td>
-<td>0</td>
-<td>3.8G</td>
-<td>
-<table width=100%>
-<col style=width:0%>
-<col style=width:100%>
-<tr>
-<td bgcolor=green>
-0
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>tmpfs</td>
-<td><p style=color:green>green</p></td>
-<td>1</td>
-<td>5.0M</td>
-<td>
-<table width=100%>
-<col style=width:1%>
-<col style=width:99%>
-<tr>
-<td bgcolor=green>
-1
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>tmpfs</td>
-<td><p style=color:green>green</p></td>
-<td>1</td>
-<td>773M</td>
-<td>
-<table width=100%>
-<col style=width:1%>
-<col style=width:99%>
-<tr>
-<td bgcolor=green>
-1
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>tmpfs</td>
-<td><p style=color:green>green</p></td>
-<td>1</td>
-<td>775M</td>
-<td>
-<table width=100%>
-<col style=width:1%>
-<col style=width:99%>
-<tr>
-<td bgcolor=green>
-1
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td>udev</td>
-<td><p style=color:green>green</p></td>
-<td>0</td>
-<td>3.8G</td>
-<td>
-<table width=100%>
-<col style=width:0%>
-<col style=width:100%>
-<tr>
-<td bgcolor=green>
-0
-</td>
-<td>
-</td>
-</tr>
-</table>
-</td>
-</tr>
+	<th>FILE_PATH</th>
+	<th>COLOR_BUCKET</th>
+	<th>USED_PERCENTAGE</th>
+	<th>AVAILABLE</th>
+	<th>HISTOGRAM</th>
+	<tr>
+		<td>/dev/loop0</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop1</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop2</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop3</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop4</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop5</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop6</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop7</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/loop8</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+		<td>100</td>
+		<td>0</td>
+		<td>
+			<table width=100%>
+				<col style=width:100%>
+					<col style=width:0%>
+						<tr>
+							<td bgcolor=red>100</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/nvme0n1p1</td>
+		<td>
+			<p style=color:yellow>yellow</p>
+		</td>
+		<td>48</td>
+		<td>77M</td>
+		<td>
+			<table width=100%>
+				<col style=width:48%>
+					<col style=width:52%>
+						<tr>
+							<td bgcolor=yellow>48</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>/dev/nvme0n1p7</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>21</td>
+		<td>74G</td>
+		<td>
+			<table width=100%>
+				<col style=width:21%>
+					<col style=width:79%>
+						<tr>
+							<td bgcolor=green>21</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>0</td>
+		<td>3.8G</td>
+		<td>
+			<table width=100%>
+				<col style=width:0%>
+					<col style=width:100%>
+						<tr>
+							<td bgcolor=green>0</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>0</td>
+		<td>3.8G</td>
+		<td>
+			<table width=100%>
+				<col style=width:0%>
+					<col style=width:100%>
+						<tr>
+							<td bgcolor=green>0</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>1</td>
+		<td>5.0M</td>
+		<td>
+			<table width=100%>
+				<col style=width:1%>
+					<col style=width:99%>
+						<tr>
+							<td bgcolor=green>1</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>1</td>
+		<td>773M</td>
+		<td>
+			<table width=100%>
+				<col style=width:1%>
+					<col style=width:99%>
+						<tr>
+							<td bgcolor=green>1</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>tmpfs</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>1</td>
+		<td>775M</td>
+		<td>
+			<table width=100%>
+				<col style=width:1%>
+					<col style=width:99%>
+						<tr>
+							<td bgcolor=green>1</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>udev</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+		<td>0</td>
+		<td>3.8G</td>
+		<td>
+			<table width=100%>
+				<col style=width:0%>
+					<col style=width:100%>
+						<tr>
+							<td bgcolor=green>0</td>
+							<td></td>
+						</tr>
+			</table>
+		</td>
+	</tr>
 </table>
 <table>
-<th>USERNAME</th>
-<th>USER_HOME_DIRECTORY</th>
-<th>USER_USAGE</th>
-<th>COLOR_BUCKET</th>
-<tr>
-<td>Faizan</td>
-<td>/home/Faizan</td>
-<td>7.5G</td>
-<td><p style=color:red>red</p></td>
-</tr>
-<tr>
-<td>saira</td>
-<td>/home/saira</td>
-<td>9.5M</td>
-<td><p style=color:green>green</p></td>
-</tr>
+	<th>USERNAME</th>
+	<th>USER_HOME_DIRECTORY</th>
+	<th>USER_USAGE</th>
+	<th>COLOR_BUCKET</th>
+	<tr>
+		<td>Faizan</td>
+		<td>/home/Faizan</td>
+		<td>7.5G</td>
+		<td>
+			<p style=color:red>red</p>
+		</td>
+	</tr>
+	<tr>
+		<td>saira</td>
+		<td>/home/saira</td>
+		<td>9.5M</td>
+		<td>
+			<p style=color:green>green</p>
+		</td>
+	</tr>
 </table>
 <table>
-<th>PACKAGE_NAME</th>
-<th>OCCUPIED_MEMORY</th>
-<tr>
-<td>linux-modules-extra-5.4.0-26-generic</td>
-<td>181KB</td>
-</tr>
-<tr>
-<td>google-chrome-stable</td>
-<td>223KB</td>
-</tr>
-<tr>
-<td>libgl1-mesa-dri</td>
-<td>260KB</td>
-</tr>
-<tr>
-<td>libgl1-mesa-dri</td>
-<td>279KB</td>
-</tr>
-<tr>
-<td>linux-firmware</td>
-<td>511KB</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
+	<th>PACKAGE_NAME</th>
+	<th>OCCUPIED_MEMORY</th>
+	<tr>
+		<td>linux-modules-extra-5.4.0-26-generic</td>
+		<td>181KB</td>
+	</tr>
+	<tr>
+		<td>google-chrome-stable</td>
+		<td>223KB</td>
+	</tr>
+	<tr>
+		<td>libgl1-mesa-dri</td>
+		<td>260KB</td>
+	</tr>
+	<tr>
+		<td>libgl1-mesa-dri</td>
+		<td>279KB</td>
+	</tr>
+	<tr>
+		<td>linux-firmware</td>
+		<td>511KB</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
 </table>
 </body>
+
 </html>

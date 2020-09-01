@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-# This shell script output's a html file which report the disk space and warn the linux admin about the sys admin
+# This shell script makes a html report for Disk Usage, System users usage, List of packages consuming the most space. 
 #
 # Author: Shaik Faizan Roshan Ali 
 #

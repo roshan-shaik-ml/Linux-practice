@@ -1,0 +1,52 @@
+send mama the paste bin link for both the shell scripts, logfile and the also the crontab command.
+learn about the panda_datareader and panda basics, use the breaks b/w classes.
+
+//after classes from 5pm to 7pm
+take a small stock file and  experiment with it.
+which includes the link you sent to mama; it has how to format date.
+
+//light reading @ 8pm 
+Check C programming arrays tomorrow from dennis ritchie book
+
+//2nd sep 2019
+Make sure you complete the following todo.
+
+Write a shellscript to initiate the python get_data file let it take the three argument of the company, start and end date into the python file.
+
+Now, after getting the stock file store it in a csv
+
+In the same script also initiate the gnuplot by loading file
+
+What should gnuplot file consists of?
+
+GNUPLOT file consists this following
+set xaxis to date function //from the link you sent to mama
+set xaxis range on from the args of the shell
+
+***Make sure to understand the datetime function of python so, you could use it again for calculating number of days,
+
+
+bash programs structure
+
+#! /usr/bun/bash
+
+function average_monthly_stk_price() {
+	get_date_range and number of months
+	
+	for loop through the number of months
+	
+	the conditon for gettin g only month involves search for certain mm from date format. yyyy/mm/dd	
+	//expand it tomorrow
+	awk only the yy of a year | mm and get the rows of closed column
+	get_closed_price column of every_day from arg1
+		total_price of month / number of time the month loop ran
+		
+	Now print yyyy/mm each time as x values
+	average_stock_price as y value and plot it for the last 5 years
+	
+		
+
+}
+run python program with arg1 arg2 arg3 > stock.csv
+
+
